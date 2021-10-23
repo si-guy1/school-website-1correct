@@ -1,0 +1,116 @@
+<!doctype>
+<html lang="en">
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, inital-scale*1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awsome/4.7.0/css/font-awsome/min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .marqueeStyle {
+            width: auto;
+            direction:left;
+            height:30px;
+            background-color: aqua;
+            right: 50px;
+            top: 10%;
+        }
+
+        .image {
+            height: 410px;
+            width: 620px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            right: 30px;
+            top: 10px;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+    </style>
+</head>
+
+<body>
+ <nav id="nav">
+        <ul>
+            <li><a href="#home">Awesome Academy</a></li>
+            <li><a href="#campus">Campus Life</a></li>
+            <li><a href="#achivements">Achivments</a></li>
+            <li><a href="#new">What's New</a></li>
+            <li><a href="#alumni">Alumni</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            </div>
+            <div class="annoucement">
+            <marquee id="marqueeStyle" onmouseover="this.stop()" onmouseout="this.start()" width="100%" direction="left" height="100px" class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                *** Feel free to ask questions at school@gmail.com. ***
+            </marquee>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="text-capitalize">
+                    Contact Us</h2>
+        <span id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d377643.1448643036!2d-71.25046756407667!3d42.31400891969002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA!5e0!3m2!1sen!2sus!4v1635012516884!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </span>
+        <span>
+        <img id="image" src="school-images.jpg">
+        </span>
+        <div id="details">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZglTI_mBl-q6fvB979jyMevfNTqWW3nxEzA&usqp=CAU" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>The Founder Name: </h3>
+            <h4>Mr.Paul Smith</h4>
+            <div class="contact_1">
+                <a href="mailto:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916001600</h5>
+                </a>
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+
+</html>
